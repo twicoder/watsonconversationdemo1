@@ -5,9 +5,9 @@ var config = require('../config');
 
 var ConversationV1 = require('watson-developer-cloud/conversation/v1');
 var conversation = new ConversationV1({
-    username: config.service_username,
-    password: config.service_password,
-    version_date: config.version_date
+    username: config.conversation_service.service_username,
+    password: config.conversation_service.service_password,
+    version_date: config.conversation_service.version_date
 });
 
 router.post('/', function (req, res, next) {

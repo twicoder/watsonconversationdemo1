@@ -6,9 +6,9 @@ var config = require('../config');
 var PersonalityInsightsV3 = require('watson-developer-cloud/personality-insights/v3');
 
 var personality_insights = new PersonalityInsightsV3({
-    username: 'de9230a6-60b8-4698-9d4c-6565e09153ae',
-    password: 'hle2CNHn2PMu',
-    version_date: '2017-10-13'
+    username: config.personality_service.service_username,
+    password: config.personality_service.servcie_password,
+    version_date: config.personality_service.version_date
 });
 
 
