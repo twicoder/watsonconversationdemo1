@@ -29,7 +29,13 @@
                 templateUrl: 'app/login/index.view.html',
                 controller: 'Login.IndexController',
                 controllerAs: 'vm'
-            });
+            })
+            .state('personality', {
+                url: '/personality',
+                templateUrl: 'app/personality/index.view.html',
+                controller: 'Personality.IndexController',
+                controllerAs: 'vm'
+            });;
     }
 
 
