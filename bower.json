@@ -1,0 +1,24 @@
+{
+  "name": "watsonconversationdemo1",
+  "description": "",
+  "main": "",
+  "authors": [
+    "任庆伟 <renqw@asiainfo.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.9",
+    "bootstrap": "3.3.7",
+    "angular-ui-router": "ui-router#^1.0.14",
+    "moment": "^2.20.1",
+    "angular-momentjs": "^0.2.2"
+  }
+}
